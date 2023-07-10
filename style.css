@@ -27,7 +27,7 @@ font-family: 'Open Sans', sans-serif;
         background-color: #E55473;
         border: none;
         color: white;
-        padding: 20px 40px;
+        padding: 16px 40px;
         border-radius:8px ;
 }
  /* Bonus secton  */
@@ -117,3 +117,25 @@ span{
                     align-items: center;
 }
 /* promotional and subscription section  */
+.promotion{
+    height: 50vh;
+    width: 78%;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url("/bg-img/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.subscription-title{
+    text-align: center;
+    padding: 50px;
+}
+.subscription{
+        width: 450px;
+        height: 45px;
+        border-radius: 8px;
+        margin-top: 5%;
+        border: none                                  ;
+}
