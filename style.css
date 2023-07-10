@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/* main section  */
 main{
     background-color: #E554731A ;
     display: flex;
@@ -29,17 +30,19 @@ font-family: 'Open Sans', sans-serif;
         padding: 20px 40px;
         border-radius:8px ;
 }
+ /* Bonus secton  */
 .featured{
         width: 35%;
         margin: auto;
        margin-top: 60px;
         text-align: center;        
 }
-.featured-title{
+.primary-font{
             font-family: 'Lato', sans-serif;
             font-family: 'Open Sans', sans-serif;
    
 }
+/* image background design  */
 .pink-flower{
             background-color:#A7216226 ;
             width: 364px;
@@ -47,12 +50,14 @@ font-family: 'Open Sans', sans-serif;
             border-radius: 200px 200px 0px 0px;
             text-align: center;
         }
+        /* image positioning */
 .flower-img{
     width: 210px;
     height: 338px;
     padding: 100px 68px 0px 66px;
     
 }
+
 .featured-flower{
             width: 90%;
             margin: auto;
@@ -60,6 +65,7 @@ font-family: 'Open Sans', sans-serif;
             display: flex;
             gap: 20px;
 }
+/* background change for last two flower tree  */
 #flower1{
         background-color: #0597A026;
 }
@@ -67,7 +73,47 @@ font-family: 'Open Sans', sans-serif;
         background-color:#477D1126 ;
 }
    
+ /* caption for all pictures  */
 figcaption{
     text-decoration: underline;
     margin-top: 15px;
 }
+/* Hot deals  section  */
+.hot-deals{
+        background-color:#E554730D ;
+        display: flex;
+        margin-top: 10%;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;     
+        
+}
+ /* i need to use span tag again in the footer,but that one also same color. that's why i didn't use any class here! */
+span{
+    color: #E55473;
+}
+.deals-info{ 
+   text-align: center;
+   padding: 80px;
+   width: 500px;
+}
+.deals-img{
+        width: 200px;
+        height: 300px;
+}
+
+/* instagram image width define  */
+.intagram-img{
+    width: 220px;
+    height: 250px;
+    margin: 10px;
+    
+}
+/* instagram text information */
+.intagram-container{
+                    display: flex;
+                   background-color: #FFF;;
+                    justify-content: center;
+                    align-items: center;
+}
+/* promotional and subscription section  */
