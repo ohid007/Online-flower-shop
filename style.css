@@ -109,7 +109,19 @@ span{
         width: 200px;
         height: 300px;
 }
-
+/* My added section-- Home delivery service section  */
+.delivery{
+    height: 60vh;
+    background-image: url(/bg-img/home-delivery.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.delivery-title{
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
 /* instagram image width define  */
 .intagram-img{
     width: 220px;
