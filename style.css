@@ -126,7 +126,7 @@ span {
 /* My added section-- Home delivery service section  */
 .delivery {
     height: 60vh;
-    background-image: url(/bg-img/home-delivery.png);
+    background-image: url(./bg-img/home-delivery.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -163,7 +163,7 @@ span {
     width: 78%;
     margin: auto;
     margin-top: 50px;
-    background-image: url("/bg-img/Rectangle\ 9.png");
+    background-image: url("./bg-img/Rectangle\ 9.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
