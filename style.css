@@ -7,7 +7,7 @@ body {
 main {
     background-color: #E554731A;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 20px;
 
@@ -142,25 +142,61 @@ span {
 
 /* instagram image width define  */
 .intagram-img {
-    width: 220px;
-    height: 250px;
-    margin: 10px;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 10px;
+}
 
+.intagram-img img {
+    width: 100%;
 }
 
 /* instagram text information */
 .intagram-container {
-    display: flex;
-    background-color: #FFF;
-    ;
+    display: table;
+    width: 80%;
+    margin: auto;
     justify-content: center;
     align-items: center;
+}
+
+/* Best seller  */
+.seller-container {
+    background-color: #E554731A;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.seller {
+    width: 280px;
+    box-shadow: 4px 4px 10px rgb(68, 61, 61);
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+.seller-img {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.seller-title {
+    padding: 20px;
 }
 
 /* promotional and subscription section  */
 .promotion {
     height: 50vh;
-    width: 78%;
+    width: 80%;
     margin: auto;
     margin-top: 50px;
     background-image: url("./bg-img/Rectangle\ 9.png");
@@ -172,7 +208,7 @@ span {
 
 .subscription-title {
     text-align: center;
-    padding: 50px;
+    padding: 40px;
 }
 
 .subscription {
