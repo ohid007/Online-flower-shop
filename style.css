@@ -30,7 +30,7 @@ font-family: 'Open Sans', sans-serif;
         padding: 16px 40px;
         border-radius:8px ;
 }
- /* Bonus secton  */
+ /* Bonus section  */
 .featured{
         width: 35%;
         margin: auto;
@@ -138,4 +138,17 @@ span{
         border-radius: 8px;
         margin-top: 5%;
         border: none                                  ;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+.copy{
+    color: #FFFFFF66;
+    padding: 10px;
 }
