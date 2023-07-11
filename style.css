@@ -6,22 +6,26 @@ body{
 main{
     background-color: #E554731A ;
     display: flex;
+    justify-content: center;
+        align-items: center;
+        gap: 20px;
     
 }
 .main-title-container{
-        margin-top: 197px; 
-        padding: 50px;   
+        width:520px ;
+        
+        
 }
 .main-title{
     font-size: 50px;
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-   
+font-family: 'Open Sans', sans-serif; 
 }
 .main-img{
-        width: 635px;
-        height: 800px;
+        width: 435px;
+        height: 600px;
        margin-top: 50px;
+      
 }
 .primary-button{
         background-color: #E55473;
@@ -49,6 +53,8 @@ font-family: 'Open Sans', sans-serif;
             height: 438px;
             border-radius: 200px 200px 0px 0px;
             text-align: center;
+            justify-content: center;
+            align-items: center;
         }
         /* image positioning */
 .flower-img{
@@ -64,6 +70,8 @@ font-family: 'Open Sans', sans-serif;
             margin-top: 70px;
             display: flex;
             gap: 20px;
+            justify-content: center;
+            align-items: center;
 }
 /* background change for last two flower tree  */
 #flower1{
